@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>KeyType · GitBook</title>
+        <title>RpcError · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -72,10 +72,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../interfaces/numeric.key.html" />
+    <link rel="next" href="../modules/serialize.html" />
     
     
-    <link rel="prev" href="../modules/numeric.html" />
+    <link rel="prev" href="../modules/rpc_error.html" />
     
 
     
@@ -166,9 +166,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../classes/api.api-1.html">
+        <li class="chapter " data-level="1.4.1" data-path="api.api-1.html">
             
-                <a href="../classes/api.api-1.html">
+                <a href="api.api-1.html">
             
                     
                     Api
@@ -276,9 +276,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../classes/js_sig.jssignatureprovider.html">
+        <li class="chapter " data-level="1.5.1" data-path="js_sig.jssignatureprovider.html">
             
-                <a href="../classes/js_sig.jssignatureprovider.html">
+                <a href="js_sig.jssignatureprovider.html">
             
                     
                     JsSignatureProvider
@@ -308,9 +308,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../classes/json_rpc.jsonrpc.html">
+        <li class="chapter " data-level="1.6.1" data-path="json_rpc.jsonrpc.html">
             
-                <a href="../classes/json_rpc.jsonrpc.html">
+                <a href="json_rpc.jsonrpc.html">
             
                     
                     JsonRpc
@@ -444,9 +444,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.7.1" data-path="numeric.keytype.html">
+        <li class="chapter " data-level="1.7.1" data-path="../enums/numeric.keytype.html">
             
-                <a href="numeric.keytype.html">
+                <a href="../enums/numeric.keytype.html">
             
                     
                     KeyType
@@ -489,9 +489,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.8.1" data-path="../classes/rpc_error.rpcerror.html">
+        <li class="chapter active" data-level="1.8.1" data-path="rpc_error.rpcerror.html">
             
-                <a href="../classes/rpc_error.rpcerror.html">
+                <a href="rpc_error.rpcerror.html">
             
                     
                     RpcError
@@ -521,9 +521,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="../classes/serialize.serialbuffer.html">
+        <li class="chapter " data-level="1.9.1" data-path="serialize.serialbuffer.html">
             
-                <a href="../classes/serialize.serialbuffer.html">
+                <a href="serialize.serialbuffer.html">
             
                     
                     SerialBuffer
@@ -534,9 +534,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.2" data-path="../classes/serialize.serializerstate.html">
+        <li class="chapter " data-level="1.9.2" data-path="serialize.serializerstate.html">
             
-                <a href="../classes/serialize.serializerstate.html">
+                <a href="serialize.serializerstate.html">
             
                     
                     SerializerState
@@ -686,7 +686,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >KeyType</a>
+        <a href=".." >RpcError</a>
     </h1>
 </div>
 
@@ -701,24 +701,62 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>Key types this library supports</p>
-<h1 id="index">Index</h1>
-<h3 id="enumeration-members">Enumeration members</h3>
-<ul>
-<li><a href="numeric.keytype.html#k1">k1</a></li>
-<li><a href="numeric.keytype.html#r1">r1</a></li>
-</ul>
+                                <p>Holds detailed error information</p>
+<h1 id="hierarchy">Hierarchy</h1>
+<p> <code>Error</code></p>
+<p><strong>&#x21B3; RpcError</strong></p>
+<h1 id="constructors">Constructors</h1>
+<p><a id="constructor"></a></p>
+<h2 id="constructor">constructor</h2>
+<p>&#x2295; <strong>new RpcError</strong>(json: <em><code>any</code></em>): <a href="rpc_error.rpcerror.html">RpcError</a></p>
+<p><em>Defined in <a href="https://github.com/EOSIO/eosjs/blob/98da56d/src/eosjs2-rpcerror.ts#L8" target="_blank">eosjs2-rpcerror.ts:8</a></em></p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>json</td>
+<td><code>any</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong> <a href="rpc_error.rpcerror.html">RpcError</a></p>
 <hr>
-<h1 id="enumeration-members">Enumeration members</h1>
-<p><a id="k1"></a></p>
-<h2 id="k1">k1</h2>
-<p><strong>k1</strong>:  = 0</p>
-<p><em>Defined in <a href="https://github.com/EOSIO/eosjs/blob/98da56d/src/eosjs2-numeric.ts#L221" target="_blank">eosjs2-numeric.ts:221</a></em></p>
+<h1 id="properties">Properties</h1>
+<p><a id="json"></a></p>
+<h2 id="json">json</h2>
+<p><strong>&#x25CF; json</strong>: <em><code>any</code></em></p>
+<p><em>Defined in <a href="https://github.com/EOSIO/eosjs/blob/98da56d/src/eosjs2-rpcerror.ts#L8" target="_blank">eosjs2-rpcerror.ts:8</a></em></p>
+<p>Detailed error information</p>
 <hr>
-<p><a id="r1"></a></p>
-<h2 id="r1">r1</h2>
-<p><strong>r1</strong>:  = 1</p>
-<p><em>Defined in <a href="https://github.com/EOSIO/eosjs/blob/98da56d/src/eosjs2-numeric.ts#L222" target="_blank">eosjs2-numeric.ts:222</a></em></p>
+<p><a id="message"></a></p>
+<h2 id="message">message</h2>
+<p><strong>&#x25CF; message</strong>: <em><code>string</code></em></p>
+<p><em>Inherited from Error.message</em></p>
+<p><em>Defined in /Users/sandwich/Develop/block.one/eosjs/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:904</em></p>
+<hr>
+<p><a id="name"></a></p>
+<h2 id="name">name</h2>
+<p><strong>&#x25CF; name</strong>: <em><code>string</code></em></p>
+<p><em>Inherited from Error.name</em></p>
+<p><em>Defined in /Users/sandwich/Develop/block.one/eosjs/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:903</em></p>
+<hr>
+<p><a id="stack"></a></p>
+<h2 id="optional-stack"><code>&lt;Optional&gt;</code> stack</h2>
+<p><strong>&#x25CF; stack</strong>: <em><code>string</code></em></p>
+<p><em>Inherited from Error.stack</em></p>
+<p><em>Overrides Error.stack</em></p>
+<p><em>Defined in /Users/sandwich/Develop/block.one/eosjs/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:905</em></p>
+<hr>
+<p><a id="error"></a></p>
+<h2 id="static-error"><code>&lt;Static&gt;</code> Error</h2>
+<p><strong>&#x25CF; Error</strong>: <em><code>ErrorConstructor</code></em></p>
+<p><em>Defined in /Users/sandwich/Develop/block.one/eosjs/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:914</em></p>
 <hr>
 
                                 
@@ -747,12 +785,12 @@
 
             
                 
-                <a href="../modules/numeric.html" class="navigation navigation-prev " aria-label="Previous page: Numeric">
+                <a href="../modules/rpc_error.html" class="navigation navigation-prev " aria-label="Previous page: RPC-Error">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../interfaces/numeric.key.html" class="navigation navigation-next " aria-label="Next page: Key">
+                <a href="../modules/serialize.html" class="navigation navigation-next " aria-label="Next page: Serialize">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -763,7 +801,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"KeyType","level":"1.7.1","depth":2,"next":{"title":"Key","level":"1.7.2","depth":2,"path":"interfaces/numeric.key.md","ref":"interfaces/numeric.key.md","articles":[]},"previous":{"title":"Numeric","level":"1.7","depth":1,"path":"modules/numeric.md","ref":"modules/numeric.md","articles":[{"title":"KeyType","level":"1.7.1","depth":2,"path":"enums/numeric.keytype.md","ref":"enums/numeric.keytype.md","articles":[]},{"title":"Key","level":"1.7.2","depth":2,"path":"interfaces/numeric.key.md","ref":"interfaces/numeric.key.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["page-toc","custom-header-next@git+https://github.com/dskvr/gitbook-plugin-custom-header-next.git","favicon"],"pluginsConfig":{"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"images/favicon.ico","bookmark":"images/favicon.ico"},"custom-header-next":{"logo":"/eosjs/images/logo.png","logo_alt":"EOSIO","base_path":"/eosjs","text":"EOSJS","navigations":[]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"enums/numeric.keytype.md","mtime":"2018-10-02T12:29:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-02T12:29:09.123Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"RpcError","level":"1.8.1","depth":2,"next":{"title":"Serialize","level":"1.9","depth":1,"path":"modules/serialize.md","ref":"modules/serialize.md","articles":[{"title":"SerialBuffer","level":"1.9.1","depth":2,"path":"classes/serialize.serialbuffer.md","ref":"classes/serialize.serialbuffer.md","articles":[]},{"title":"SerializerState","level":"1.9.2","depth":2,"path":"classes/serialize.serializerstate.md","ref":"classes/serialize.serializerstate.md","articles":[]},{"title":"Action","level":"1.9.3","depth":2,"path":"interfaces/serialize.action.md","ref":"interfaces/serialize.action.md","articles":[]},{"title":"Authorization","level":"1.9.4","depth":2,"path":"interfaces/serialize.authorization.md","ref":"interfaces/serialize.authorization.md","articles":[]},{"title":"Contract","level":"1.9.5","depth":2,"path":"interfaces/serialize.contract.md","ref":"interfaces/serialize.contract.md","articles":[]},{"title":"CreateTypeArgs","level":"1.9.6","depth":2,"path":"interfaces/serialize.createtypeargs.md","ref":"interfaces/serialize.createtypeargs.md","articles":[]},{"title":"Field","level":"1.9.7","depth":2,"path":"interfaces/serialize.field.md","ref":"interfaces/serialize.field.md","articles":[]},{"title":"SerializedAction","level":"1.9.8","depth":2,"path":"interfaces/serialize.serializedaction.md","ref":"interfaces/serialize.serializedaction.md","articles":[]},{"title":"Symbol","level":"1.9.9","depth":2,"path":"interfaces/serialize.symbol.md","ref":"interfaces/serialize.symbol.md","articles":[]},{"title":"Type","level":"1.9.10","depth":2,"path":"interfaces/serialize.type.md","ref":"interfaces/serialize.type.md","articles":[]}]},"previous":{"title":"RPC-Error","level":"1.8","depth":1,"path":"modules/rpc_error.md","ref":"modules/rpc_error.md","articles":[{"title":"RpcError","level":"1.8.1","depth":2,"path":"classes/rpc_error.rpcerror.md","ref":"classes/rpc_error.rpcerror.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["page-toc","custom-header-next@git+https://github.com/dskvr/gitbook-plugin-custom-header-next.git","favicon"],"pluginsConfig":{"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"images/favicon.ico","bookmark":"images/favicon.ico"},"custom-header-next":{"logo":"/eosjs/images/logo.png","logo_alt":"EOSIO","base_path":"/eosjs","text":"EOSJS","navigations":[]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"classes/rpc_error.rpcerror.md","mtime":"2018-10-02T12:29:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-02T12:29:09.123Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
